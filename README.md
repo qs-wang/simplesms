@@ -16,7 +16,7 @@ This is an example UI which sends SMS to mobile phone.
 - Uses the [Create React App](https://github.com/facebook/create-react-app) for ceating, managing the project.
 
 ## System Requirements
-- node >8.14.0
+- node 8.14.0
 - npm
 
 ## Install and Build
@@ -27,7 +27,8 @@ npm install
 npm run build
 ```
 ### Install and Run the backend server
-Please following the instruction at [send-sms](https://github.com/qs-wang/send-sms)
+This APP uses the [send-sms](https://github.com/qs-wang/send-sms) as the backend API server. Need install, and run it seperately. 
+Please following the instruction at [send-sms](https://github.com/qs-wang/send-sms).
 
 ## Configure
 - Customized environment varabiles shoud go to .env
